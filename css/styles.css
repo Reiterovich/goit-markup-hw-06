@@ -810,6 +810,7 @@ ol {
   background-color: transparent;
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border: 1px solid rgba(46, 47, 66, 0.2);
 }
 
 .text-area:focus {
@@ -870,6 +871,7 @@ ol {
 .input-checkbox:checked + .label-checkbox .check-box {
   background-color: var(--click);
   fill: #ffffff;
+  border: none;
 }
 
 .button-sumbit {
